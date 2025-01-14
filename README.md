@@ -38,6 +38,7 @@ If targeting Android 10 (API level 29) or higher, also include:
 `<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />`
 
 Enable high accuracy by adding:
+
 `<application
     android:usesCleartextTraffic="true"
     android:networkSecurityConfig="@xml/network_security_config">

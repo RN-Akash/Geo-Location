@@ -30,9 +30,11 @@ npm install @react-native-community/geolocation
 Add the following permissions to AndroidManifest.xml:
 
 `<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />`
+
 `<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />`
 
 If targeting Android 10 (API level 29) or higher, also include:
+
 `<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />`
 
 Enable high accuracy by adding:

@@ -37,12 +37,15 @@ class CurrentLocation extends Component {
     const { latitude, longitude } = this.state;
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Current Location</Text>
-        <Text style={styles.coordinates}>
-          Latitude: {latitude.toFixed(6)}{"\n"}
-          Longitude: {longitude.toFixed(6)}
-        </Text>
-        <Button title="Get Current Location" onPress={() => this.getCurrentLocation()} />
+        <Text style={styles.title}>Current Location : </Text>
+        {latitude && longitude ?
+          <Text style={styles.coordinates}>
+            Latitude: {latitude.toFixed(6)}{"\n"}
+            Longitude: {longitude.toFixed(6)}
+          </Text>
+          : null
+        }
+        <Button title="&#9758; Get Current Location" onPress={() => this.getCurrentLocation()} />
       </View>
     );
   }

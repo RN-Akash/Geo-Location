@@ -9,8 +9,9 @@ This project demonstrates how to get the user's current location (latitude and l
 
 
 ## Screenshots
-|<img src="https://github.com/user-attachments/assets/4773c1b8-ed43-4cce-8b9b-bbab13b618fb" alt="App Screenshot" height="300" width="200">|
-|<img src="https://github.com/user-attachments/assets/d4db243b-97c6-43ec-9966-9ac2e32afb98" alt="App Screenshot" height="300" width="200">|
+| <img src="https://github.com/user-attachments/assets/4773c1b8-ed43-4cce-8b9b-bbab13b618fb" alt="App Screenshot" height="300" width="200"> |
+|-------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="https://github.com/user-attachments/assets/d4db243b-97c6-43ec-9966-9ac2e32afb98" alt="App Screenshot" height="300" width="200"> |
 
 
 ## Dependencies
